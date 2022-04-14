@@ -2,7 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -16,8 +17,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  padding: 0;
-  
+  padding: 0; 
 }
 
 a {
@@ -29,12 +29,14 @@ a {
 }
 
 /* added for my solution */
-.left-links {
+.left-links,
+.right-links {
   display: flex;
+  align-items: center;
 }
 
 .left-links ul,
 .right-links ul {
   display: flex;
-  justify-content: space-between;
+  gap: 8px;
 }
