@@ -62,6 +62,8 @@ button {
 .section1.right {
     width: 50%;
     align-items: center;
+    background-color: grey;
+    margin-right: 32px;
 }
 
 .main,
