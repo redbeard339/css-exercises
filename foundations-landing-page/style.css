@@ -24,15 +24,23 @@ a,
     color: #e5e7eb;
 }
 
+.box1 {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1.content {
+    width: 75%;
+}
 .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     padding: 16px 64px;
-
-    background-color: #1F2937;
-
 } 
 
 .main,
@@ -48,10 +56,6 @@ button {
 .section1 {
     display: flex;
     justify-content: center;
-
-    background-color: #1f2937;
-
-    padding: 16px 32px;
 }
 
 .section1.left {
@@ -63,7 +67,6 @@ button {
     width: 50%;
     align-items: center;
     background-color: grey;
-    margin-right: 32px;
 }
 
 .main,
