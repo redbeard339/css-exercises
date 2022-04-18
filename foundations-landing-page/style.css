@@ -38,6 +38,10 @@ a,
     text-align: center;
 }
 
+.box.box3 {
+    background-color: #e5e7eb;
+}
+
 .content {
     width: 75%;
     display: flex;
@@ -107,6 +111,9 @@ button {
 
 .box2.heading {
     margin: 32px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .boxset {
@@ -120,4 +127,10 @@ button {
     width: 100px;
     border: 5px solid #3882f6;
     border-radius: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    width: 70%;
 }
