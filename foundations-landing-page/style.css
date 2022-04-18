@@ -46,7 +46,7 @@ a,
 }
 
 .header {
-    width: 100%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ button {
 }
 
 .section1 {
-    width: 100%;
+    width: 75%;
     display: flex;
     justify-content: center;
     margin-bottom: 64px;
